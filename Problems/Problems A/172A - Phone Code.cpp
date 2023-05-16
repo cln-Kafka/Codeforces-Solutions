@@ -5,11 +5,11 @@
 // it will work as my reference number to compare any other number with it
 std::string refnumber;
 
-// variables that will equal the similarity between any number and first number
+// a variable that will equal the similarity between any number and first number
+// the maximum size of inputs is 20 characters, so the maximum similarity is set to 20
 int simi{20};
 
-// a function that compares each number it takes with first number and pushes
-// the similariy in vector "simi"
+// a function that finds the similarity between first num and the others
 void comparison(int n){
     int newsimi{0};
     std::string newnumber;
