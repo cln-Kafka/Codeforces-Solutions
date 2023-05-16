@@ -1,0 +1,42 @@
+number := 0
+number := readln
+temp := number
+numbernew := 0
+count := 0
+flag := true
+
+if number > 10 then(
+  flag := false
+)
+
+while number != 0 do(
+  number := number / 10
+  count = count + 1
+)
+
+for (i := 0; i < count; i := i + 1) do(
+  if not ( temp % 10 == 0) then(
+  break
+  ) else(
+  write(temp := temp / 10)
+  )
+)
+
+for (k := 1; k <= count; k := k + 1) do(
+  numbernew = numbernew + (temp % 10) * math:pow(10, count-i)
+  temp = temp / 10
+)
+
+for (z := 0; z < count; z := z + 1) do(
+  if not ( numbernew % 10 == 0) then(
+  break
+  ) else(
+  write(numbernew := numbernew / 10)
+  )
+)
+
+if flag then(
+  write("-" .. numbernew)
+) else(
+  write(numbernew)
+)
