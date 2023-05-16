@@ -1,3 +1,5 @@
+// there is another method, the better method, in the same repository
+
 #include <iostream>
 
 int main(){
