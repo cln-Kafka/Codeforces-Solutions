@@ -1,0 +1,2 @@
+# Codeforces-Solutions
+On March 14, 2023, I began practising competitive programming, and this repository contains all of the solutions to the problems I solved on CodeForces. You could notice that some of my solutions aren't very effective because I didn't tackle them with a lot of knowledge. If I had more time, I'd go back and fix them with better solutions and write comments outlining how to fix each problem. I hope these are useful to you. <3
